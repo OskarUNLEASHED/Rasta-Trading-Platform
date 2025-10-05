@@ -7,7 +7,6 @@
 Welcome to **Rastalogin**, the digital e-yard where users can trade their treasures, post new items, and manage fair exchanges with others — all through a console-based system written in **C# (.NET 8)**.
 
 Built around solid object-oriented design, this project keeps every piece of logic in its own class.  
-Straightforward, organized, and easy to expand — no chaos, no spaghetti.
 
 ---
 
@@ -25,7 +24,7 @@ Once inside the yard, a user can:
 9. Review completed trades  
 10. Log out  
 
-Smooth flow, one menu — everything runs from the console.
+Smooth flow, one menu = everything runs from the console.
 
 ---
 
