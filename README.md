@@ -31,7 +31,7 @@ Smooth flow, one menu — everything runs from the console.
 
 ### 🧩 Project Structure  
 
-All files live under the namespace **App** — ten simple parts working together like a rhythm section:
+Ten simple parts working together like a rhythm section:
 
 | File | Purpose |
 |------|----------|
