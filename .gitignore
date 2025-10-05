@@ -1,0 +1,114 @@
+# ============================================================
+#  🟢 RASTALOGIN TRADING SYSTEM  —  .gitignore
+#  Keep the yard clean: ignore all the files that don’t belong
+#  in the version history. Code stays irie, junk stay local.
+# ============================================================
+
+# --- Project-specific runtime data ---
+users.txt
+items.txt
+trades.txt
+*.log
+*.tmp
+*.bak
+*.old
+
+# --- Build output (no need fi version that) ---
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+.publish/
+publish/
+
+# --- IDE / Editor stuff ---
+.vs/
+.idea/
+.vscode/
+*.sln.iml
+*.user
+*.userprefs
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.code-workspace
+
+# --- Cache & temp folders ---
+node_modules/
+.dotnet/
+.nuget/
+.tye/
+.localhistory/
+.history/
+.mfractor/
+.ionide/
+.fake/
+mono_crash.*
+
+# --- OS-level clutter ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+.apdisk
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# Windows
+Thumbs.db
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- Logs, reports, and misc tools ---
+*.tlog
+*.binlog
+BenchmarkDotNet.Artifacts/
+TestResult.xml
+[Tt]est[Rr]esult*/
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# --- Strong names / secrets ---
+*.pfx
+*.snk
+*.secrets.json
+*.local.json
+
+# --- Archive files ---
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# --- Others worth ignoring ---
+*.dbmdl
+*.publishsettings
+*.nupkg
+*.snupkg
+*.obj
+*.pdb
+*.cache
+*.aps
+*.sdf
+*.ipch
+*.iobj
+*.ipdb
+*.vspscc
+*.vssscc
+
+# ============================================================
+# End of Rastalogin .gitignore — no dust in dis repo, seen?
+# ============================================================
